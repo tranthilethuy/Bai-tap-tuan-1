@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+        }
+        fieldset {
+            margin-left: 30px;
+            width: 500px;
+        }
+        button {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form action="contactus">
+        <h1>Contact us</h1>
+        <fieldset>
+            <legend>Your message:</legend>
+            <label for="to">To&#160;&emsp;&emsp;&emsp;</label>
+            <input type="text" value="Example cafe">
+            <br> <br>
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email">
+            <br> <br>
+            <label for="message">Message&emsp;</label>
+            <textarea name="message" id="" style=" width: 400px;height: 200px;"></textarea>
+            <br>
+            <label for="Attach File">Attach File&emsp;</label>
+            <button type="file" >Choose File</button> No file chosen
+
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <label for="message">How did you hear of us</label>
+            <select name="card" id="">
+                <option value="1">Google</option>
+            </select>
+            <br>
+            <label for="">Newletter </label>
+            <input type="checkbox">
+            Ensure this box is checked if you would like to rêcive email updates
+        </fieldset>
+        <button type="submit">Send message</button>
+    </form>
+</body>
+</html>
